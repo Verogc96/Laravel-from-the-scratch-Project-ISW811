@@ -7,7 +7,7 @@
 </head>
 <body>
    <article>
-        <h1><a href="/post">My First Post</a></h1>
+        <h1><a href="/posts/my-first-post">My First Post</a></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et lectus eu orci tincidunt vehicula. 
             Aliquam egestas, massa eu eleifend maximus, magna ligula vestibulum mauris, vel blandit ligula massa ac mi. 
             Duis at sagittis erat, quis euismod est. Donec sed ex at leo aliquet efficitur id sed lacus. 
@@ -16,7 +16,7 @@
             senectus et netus et malesuada fames ac turpis egestas. Cras at ante eros. In ipsum odio, luctus at posuere quis, feugiat eu enim.</p>
     </article>
     <article>
-        <h1><a href="/post">My Second Post</a></h1>
+        <h1><a href="/posts/my-second-post">My Second Post</a></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et lectus eu orci tincidunt vehicula. 
             Aliquam egestas, massa eu eleifend maximus, magna ligula vestibulum mauris, vel blandit ligula massa ac mi. 
             Duis at sagittis erat, quis euismod est. Donec sed ex at leo aliquet efficitur id sed lacus. 
@@ -25,7 +25,7 @@
             senectus et netus et malesuada fames ac turpis egestas. Cras at ante eros. In ipsum odio, luctus at posuere quis, feugiat eu enim.</p>
    </article>
    <article>
-        <h1><a href="/post">My Third Post</a></h1>
+        <h1><a href="/posts/my-third-post">My Third Post</a></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et lectus eu orci tincidunt vehicula. 
             Aliquam egestas, massa eu eleifend maximus, magna ligula vestibulum mauris, vel blandit ligula massa ac mi. 
             Duis at sagittis erat, quis euismod est. Donec sed ex at leo aliquet efficitur id sed lacus. 
