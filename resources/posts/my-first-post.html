@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>LFTS</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="../../public/app.css">
 </head>
 <body>
    <article>
