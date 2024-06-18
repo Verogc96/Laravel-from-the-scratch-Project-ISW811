@@ -1,22 +1,21 @@
-<!DOCTYPE html>
-    <title>LFTS</title>
-    <link rel="stylesheet" href="app.css">
-</head>
-<body>
-    @foreach ($posts as $post)
-   <article>
+    <x-layout>
+        @foreach ($posts as $post)
 
-    <h1>
-        <a href="/posts/{{ $post->slug }}">
-        {{$post->title}}
-        </a>
-    </h1>
+            <article>
 
-    <div>
-        {{$post->excerpt}}
-    </div>
+                <h1>
+                    <a href="/posts/{{ $post->slug }}">
+                    {{$post->title}}
+                    </a>
+                </h1>
 
-    </article>
-    @endforeach
-</body>
-</html>
+                <div>
+                    {{$post->excerpt}}
+                </div>
+
+            </article>
+
+        @endforeach
+
+    </x-layout>
+
