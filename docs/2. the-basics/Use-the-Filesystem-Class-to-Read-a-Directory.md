@@ -41,7 +41,7 @@ Route::get('/posts/{post}', function ($slug) {
 
 ## Iteraciones en php
 
-En nuestra app se desea que el contenido que se muestra sea dinámico, y no solamente un html que debe ser modificado cada vez que se quiera realizar algo. En nuestra vista principal de posts se realiza una modificación en el código para que el itere en el directorio donde están, y lea los html ubicados en la carpeta posts para que los muestre en nuestra vista posts. Los archivos a modificar serán `posts.blade.php`, `web.php`, `Post.php`**************. El código queda de la siguiente manera:
+En nuestra app se desea que el contenido que se muestra sea dinámico, y no solamente un html que debe ser modificado cada vez que se quiera realizar algo. En nuestra vista principal de posts se realiza una modificación en el código para que el itere en el directorio donde están, y lea los html ubicados en la carpeta posts para que los muestre en nuestra vista posts. Los archivos a modificar serán `posts.blade.php`, `web.php` y `Post.php`. El código queda de la siguiente manera:
 
 ### posts.blade.php
 ```php
