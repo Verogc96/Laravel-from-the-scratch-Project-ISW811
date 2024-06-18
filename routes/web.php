@@ -21,18 +21,18 @@ Route::get('/', function () {
    ]);
 });
 
-Route::get('/posts/{post}', function ($id) {
+Route::get('/posts/{post:slug}', function (Post $post) {
 
     return view ('post', [
-        'post'=> Post::findOrFail($id)
+        'post'=> $post
     ]);
 });
 
 
-Auth::routes();
+/*Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
