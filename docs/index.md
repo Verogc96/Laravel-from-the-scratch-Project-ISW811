@@ -35,12 +35,12 @@
 - [30. Eager Load Relationships on an Existing Model](./4.%20working-with-databases/Eager-Load-Relationships-on-an-Existing-Model.md)
 
 ## Integrate the Design
-- [31. Convert the HTML and CSS to Blade]()
-- [32. Blade Components and CSS Grids]()
-- [33. Convert the Blog Post Page]()
-- [34. A Small JavaScript Dropdown Detour]()
-- [35. How to Extract a Dropdown Blade Component]()
-- [36. Quick Tweaks and Clean-Up]()
+- [31. Convert the HTML and CSS to Blade](./5.%20integrate-the-Design/Convert-the-HTML-and-CSS-to-Blade.md)
+- [32. Blade Components and CSS Grids](./5.%20integrate-the-Design/Blade-Components-and-CSS-Grids.md)
+- [33. Convert the Blog Post Page](./5.%20integrate-the-Design/Convert-the-Blog-Post-Page.md)
+- [34. A Small JavaScript Dropdown Detour](./5.%20integrate-the-Design/A-Small-JavaScript-Dropdown-Detour.md)
+- [35. How to Extract a Dropdown Blade Component](./5.%20integrate-the-Design/How-to-Extract-a-Dropdown-Blade-Component.md)
+- [36. Quick Tweaks and Clean-Up](./5.%20integrate-the-Design/Quick-Tweaks-and-Clean-Up.md)
 
 ## Search
 ## Filtering
