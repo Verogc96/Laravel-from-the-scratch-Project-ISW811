@@ -4,8 +4,8 @@
 
 En este capitulo se realiza una mejora en la apariencia de la pagina donde se visualiza el detalle del post por lo que se realizan las siguientes variaciones.
 
-## Creacion de archivo `category-button.blade.php`
-Creamos el archivo con nombre `category-button.blade.php` en la ruta **_resources/views/components_** y agregamos el codigo corresponde al formato de los botones que indican el nombre de la categoria a la que pertenece cada post y que se recibe por medio de **props** la categoria:
+## Creación de archivo `category-button.blade.php`
+Creamos el archivo con nombre `category-button.blade.php` en la ruta **_resources/views/components_** y agregamos el código corresponde al formato de los botones que indican el nombre de la categoría a la que pertenece cada post y que se recibe por medio de **props** la categoría:
 
 ```php
 @props(['category'])
@@ -18,7 +18,7 @@ Creamos el archivo con nombre `category-button.blade.php` en la ruta **_resource
 
 ## En el documento llamado post.blade.php 
 
-Se copia el contenido ubicado en `layout.blade.php` y se pega en el archivo post.blade.php y se realizan las modificaciones respectivas para que el contenido sea dinamico. El codigo queda de la siguiente manera:
+Se copia el contenido ubicado en `layout.blade.php` y se pega en el archivo post.blade.php y se realizan las modificaciones respectivas para que el contenido sea dinámico. El código queda de la siguiente manera:
 
 ```html
 <x-layout>
@@ -76,7 +76,7 @@ Se copia el contenido ubicado en `layout.blade.php` y se pega en el archivo post
 ```
 
 ## En el documento llamado post-card.blade.php 
-Nos ubicamos en la linea de codigo realizada en el documento anterior en el espacio donde se encuentra el nombre de la categoria, quitamos la informacion indica y agregamos el siguiente codigo:
+Nos ubicamos en la linea de código realizada en el documento anterior en el espacio donde se encuentra el nombre de la categoría, quitamos la información indica y agregamos el siguiente código:
 
 ```html
   <x-category-button : category= "$post->category"/>
