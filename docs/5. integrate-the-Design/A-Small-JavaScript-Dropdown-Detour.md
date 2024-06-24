@@ -19,6 +19,17 @@ Route::get('/', function () {
 });
 ```
 
+Y luego ejecutar los siguientes comandos para limpiar la cache de las rutas y guardar los cambios:
+
+```bash
+cd /vagrant/sites/lfts.isw811.xyz/
+php artisan view:clear
+php artisan route:clear
+php artisan route:cache
+```
+
+Lo anterior para guardar los cambios en las rutas modificadas.
+
 Ademas se requiere incluir este mismo codigo para las otras dos rutas ya configuradas y en la de ***"/categories/{category:slug}"*** se debe de agregar otra del post actual para utilizarla en el dropdown menu como la que se encuentra actualmente seleccionada:
 
 ```php
