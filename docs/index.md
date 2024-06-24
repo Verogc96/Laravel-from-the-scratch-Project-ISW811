@@ -43,9 +43,28 @@
 - [36. Quick Tweaks and Clean-Up](./5.%20integrate-the-Design/Quick-Tweaks-and-Clean-Up.md)
 
 ## Search
+- [37. Search (The Messy Way)](./6.%20search/37.Search-(The-Messy-Way).md)
+- [38. Search (The Clean Way)](./6.%20search/38.Search-(The-Clean-Way).md)
+
 ## Filtering
+- [39. Advanced Eloquent Query Constraints](./7.%20filtering/39.Advanced-Eloquent-Query-Constraints.md)
+- [40. Extract a Category Dropdown Blade Component)](./7.%20filtering/40.Extract-a-Category-Dropdown-Blade-Component.md)
+- [41. Author Filtering](./7.%20filtering/41.Author-Filtering.md)
+- [42. Merge Categories and Search Queries](./7.%20filtering/42.Merge-Categories-and-Search-Queries.md)
+- [43. Fix a Confusing Eloquent Query Bug](./7.%20filtering/43.Fix-a-Confusing-Eloquent-Query-Bug.md)
+
 ## Pagination
+- [44. Laughably Simple Pagination](./8.%20pagination/44.Laughably-Simple-Pagination.md)
+
 ## Forms and Authentication
+- [45. Build a Register User Page](./9.%20forms-and-authentication/45.Build-a-Register-User-Page.md)
+- [46. Automatic Password Hashing with Mutators](./9.%20forms-and-authentication/46.Automatic-Password-Hashing-with-Mutators.md)
+- [47. Failed Validation and Old Input Data](./9.%20forms-and-authentication/47.Failed-Validation-and-Old-Input-Data.md)
+- [48. Show a Success Flash Message](./9.%20forms-and-authentication/48.Show-a-Success-Flash-Message.md)
+- [49. Login and Logout](./9.%20forms-and-authentication/49.Login-and-Logout.md)
+- [50. Build the Log In Page](./9.%20forms-and-authentication/50.Build-the-Log-In-Page.md)
+- [51. Laravel Breeze Quick Peek](./9.%20forms-and-authentication/51.Laravel-Breeze-Quick-Peek.md)
+
 ## Comments
 ## Newsletters and APIs
 ## Admin Section
