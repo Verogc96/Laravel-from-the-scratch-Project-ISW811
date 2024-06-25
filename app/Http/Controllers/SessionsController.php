@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class SessionsController extends Controller
 {
@@ -11,7 +12,7 @@ class SessionsController extends Controller
         return view('sessions.create');
     }
 
-    /*public function store()
+    public function store()
     {
         $attributes = request()->validate([
             'email' => 'required|email',
@@ -27,7 +28,7 @@ class SessionsController extends Controller
         throw ValidationException::withMessages([
             'email' => 'Your provided credentials could not be verified.'
         ]);
-    }*/
+    }
 
     public function destroy()
     {

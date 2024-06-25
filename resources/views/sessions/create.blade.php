@@ -1,48 +1,3 @@
-[< Volver al índice](../index.md)
-
-# Build the Log In Page
-
-Ahora se crea la lógica para manejar el log in
-
-- Primero se agregan las funciones **create()** y **store()** en el archivo _SessionsController.php_
-
-```php
-public function create()
-    {
-        return view('sessions.create');
-    }
-
-    public function store()
-    {
-        $attributes = request()->validate([
-            'email' => 'required|email',
-            'password' => 'required'
-        ]);
-
-        if (auth()->attempt($attributes)) {
-            session()->regenerate();
-
-            return redirect('/')->with('success', 'Welcome Back!');
-        }
-
-        throw ValidationException::withMessages([
-            'email' => 'Your provided credentials could not be verified.'
-        ]);
-    }
-```
-
-- Luego en _web.php_ agregamos las rutas de login o logout
-
-```php
-Route::get('login', [SessionsController::class, 'create'])->middleware('guest');
-Route::post('login', [SessionsController::class, 'store'])->middleware('guest');
-
-Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth');
-```
-
-- Finalmente creamos el contenido para el form de log in en _create.blade.php_
-
-```php
 <x-layout>
     <section class="px-6 py-8">
         <main class="max-w-lg mx-auto mt-10 bg-gray-100 border border-gray-200 p-6 rounded-xl">
@@ -101,12 +56,3 @@ Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth'
         </main>
     </section>
 </x-layout>
-```
-
-Nuestra pagina de login luce asi:
-
-![Login-Page](../images/Login-Page.png)
-
-Y cuando hacemos log in nuestra homepage luce asi:
-
-![Home-Page](../images/Login-User-Homepage.png)
