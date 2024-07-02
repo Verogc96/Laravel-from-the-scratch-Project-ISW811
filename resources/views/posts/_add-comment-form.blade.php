@@ -1,22 +1,3 @@
-[< Volver al índice](../index.md)
-
-# Some Light Chapter Clean Up
-
-En este episodio se realiza una limpieza de codigo y se realizan las siguientes modificaciones:
-
-- #### Crear archivo **submit-button.blade.php** en la ruta _resources/views/components_ 
-
-```php
-<button type="submit"
-        class="bg-blue-500 text-white uppercase font-semibold text-xs py-2 px-10 rounded-2xl hover:bg-blue-600"
->
-    {{ $slot }}
-</button>
-```
-
-- #### Crear archivo **_add-comment-form.blade.php** en la ruta _resources/views/components_ 
-
-```php
 @auth
     <x-panel>
         <form method="POST" action="/posts/{{ $post->slug }}/comments">
@@ -56,29 +37,3 @@ En este episodio se realiza una limpieza de codigo y se realizan las siguientes 
         <a href="/login" class="hover:underline">log in</a> to leave a comment.
     </p>
 @endauth
-```
-
-- #### show.blade.php
-
-Se modifica la seccion de los comentarios quedando de la siguiente manera:
-
-```php
-<section class="col-span-8 col-start-5 mt-10 space-y-6">
-
-@include ('posts._add-comment-form')
-
-@foreach ($post->comments as $comment)
-    <x-post-comment :comment="$comment" />
-@endforeach
-</section>
-```
-
-Y esto nos deberia de dejar la aplicacion web funcionando como corresponde.
-
-##### Usuario loggeado
-
-![Usuario-Loggeado](../images/Comment-Login.png)
-
-##### Usuario sin hacer log in
-
-![Usuario-Desloggeado](../images/Comment-Logout.png)
