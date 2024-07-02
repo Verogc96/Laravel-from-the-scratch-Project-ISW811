@@ -66,6 +66,32 @@
 - [51. Laravel Breeze Quick Peek](./9.%20forms-and-authentication/51.Laravel-Breeze-Quick-Peek.md)
 
 ## Comments
+- [52. Write the Markup for a Post Comment](./)
+- [53. Table Consistency and Foreign Key Constraints](./)
+- [54. Make the Comments Section Dynamic](./)
+- [55. Design Comments Form](./)
+- [56. Activate the Comment Form](./)
+- [57. Some Light Chapter Clean Up](./)
+
+
 ## Newsletters and APIs
+
+- [58. Mailchimp API Tinkering](./)
+- [59. Make the Newsletter Form Work](./)
+- [60. Extract a Newsletter Service](./)
+- [61. Toy Chests and Contracts](./)
+
 ## Admin Section
 
+- [62. Limit Access to Only Admin](./)
+- [63. Create the Publish Post Form](./)
+- [64. Validate and Store Post Thumbnails](./)
+- [65. Extract Form-Specific Blade Components](./)
+- [66. Extend the Admin Layout](./)
+- [67. Create a Form to Edit and Delete Posts](./)
+- [68. Group and Store Validation Logic](./)
+- [69. All About Authorization](./)
+
+## Conclusion
+
+- [70. Goodbye and Next Steps](./)
