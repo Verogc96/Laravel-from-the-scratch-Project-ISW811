@@ -66,32 +66,32 @@
 - [51. Laravel Breeze Quick Peek](./9.%20forms-and-authentication/51.Laravel-Breeze-Quick-Peek.md)
 
 ## Comments
-- [52. Write the Markup for a Post Comment](./)
-- [53. Table Consistency and Foreign Key Constraints](./)
-- [54. Make the Comments Section Dynamic](./)
-- [55. Design Comments Form](./)
-- [56. Activate the Comment Form](./)
-- [57. Some Light Chapter Clean Up](./)
+- [52. Write the Markup for a Post Comment](./10.%20comments/52.Write-the-Markup-for-a-Post-Comment.md)
+- [53. Table Consistency and Foreign Key Constraints](./10.%20comments/53.Table-Consistency-and-Foreign-Key-Constraints.md)
+- [54. Make the Comments Section Dynamic](./10.%20comments/54.Make-the-Comments-Section-Dynamic.md)
+- [55. Design Comments Form](./10.%20comments/55.Design-Comments-Form.md)
+- [56. Activate the Comment Form](./10.%20comments/56.Activate-the-Comment-Form.md)
+- [57. Some Light Chapter Clean Up](./10.%20comments/57.Some-Light-Chapter-Clean-Up.md)
 
 
 ## Newsletters and APIs
 
-- [58. Mailchimp API Tinkering](./)
-- [59. Make the Newsletter Form Work](./)
-- [60. Extract a Newsletter Service](./)
-- [61. Toy Chests and Contracts](./)
+- [58. Mailchimp API Tinkering](./11.%20newsletters-and-apis/58.Mailchimp-API-Tinkering.md)
+- [59. Make the Newsletter Form Work](./11.%20newsletters-and-apis/59.Make-the-Newsletter-Form-Work.md)
+- [60. Extract a Newsletter Service](./11.%20newsletters-and-apis/60.Extract-a-Newsletter-Service.md)
+- [61. Toy Chests and Contracts](./11.%20newsletters-and-apis/61.Toy-Chests-and-Contracts.md)
 
 ## Admin Section
 
-- [62. Limit Access to Only Admin](./)
-- [63. Create the Publish Post Form](./)
-- [64. Validate and Store Post Thumbnails](./)
-- [65. Extract Form-Specific Blade Components](./)
-- [66. Extend the Admin Layout](./)
-- [67. Create a Form to Edit and Delete Posts](./)
-- [68. Group and Store Validation Logic](./)
-- [69. All About Authorization](./)
+- [62. Limit Access to Only Admin](./12.%20admin-section/62.Limit-Access-to-Only-Admin.md)
+- [63. Create the Publish Post Form](./12.%20admin-section/63.Create-the-Publish-Post-Form.md)
+- [64. Validate and Store Post Thumbnails](./12.%20admin-section/64.Validate-and-Store-Post-Thumbnails.md)
+- [65. Extract Form-Specific Blade Components](./12.%20admin-section/65.Extract-Form-Specific-Blade-Components.md)
+- [66. Extend the Admin Layout](./12.%20admin-section/66.Extend-the-Admin-Layout.md)
+- [67. Create a Form to Edit and Delete Posts](./12.%20admin-section/67.Create-a-Form-to-Edit-and-Delete-Posts.mdd)
+- [68. Group and Store Validation Logic](./12.%20admin-section/68.Group-and-Store-Validation-Logic.md)
+- [69. All About Authorization](./12.%20admin-section/69.All-About-Authorization.md)
 
 ## Conclusion
 
-- [70. Goodbye and Next Steps](./)
+- [70. Goodbye and Next Steps](./13.conclusion/70.Goodbye-and-Next-Steps.md)
