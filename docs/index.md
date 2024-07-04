@@ -88,7 +88,7 @@
 - [64. Validate and Store Post Thumbnails](./12.%20admin-section/64.Validate-and-Store-Post-Thumbnails.md)
 - [65. Extract Form-Specific Blade Components](./12.%20admin-section/65.Extract-Form-Specific-Blade-Components.md)
 - [66. Extend the Admin Layout](./12.%20admin-section/66.Extend-the-Admin-Layout.md)
-- [67. Create a Form to Edit and Delete Posts](./12.%20admin-section/67.Create-a-Form-to-Edit-and-Delete-Posts.mdd)
+- [67. Create a Form to Edit and Delete Posts](./12.%20admin-section/67.Create-a-Form-to-Edit-and-Delete-Posts.md)
 - [68. Group and Store Validation Logic](./12.%20admin-section/68.Group-and-Store-Validation-Logic.md)
 - [69. All About Authorization](./12.%20admin-section/69.All-About-Authorization.md)
 
