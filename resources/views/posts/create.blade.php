@@ -1,7 +1,6 @@
 <x-layout>
     <section class="px-6 py-8">
-        Hello
-       {{-- <x-panel class="max-w-sm mx-auto">
+        <x-panel class="max-w-sm mx-auto">
             <form method="POST" action="/admin/posts">
                 @csrf
 
@@ -105,6 +104,6 @@
 
                 <x-submit-button>Publish</x-submit-button>
             </form>
-        </x-panel>--}}
+        </x-panel>
     </section>
 </x-layout>
